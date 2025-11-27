@@ -3,46 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      body {
-        background-image: url(dio.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
-      .sidebar {
-        position: fixed;
-        width: 250px;
-        height: 100%;
-        left: 0;
-        background-color: rgba(39, 109, 171, 0.315);
-      }
-      .kanan {
-        margin-left: 250px;
-        background-color: rgba(255, 228, 196, 0.7);
-      }
-      .topbar {
-        position: fixed;
-        top: 0;
-        height: 64px;
-        width: 100%;
-        background-color: rgba(137, 43, 226, 0.8);
-      }
-      .main {
-        position: relative;
-        top: 64px;
-        width: 100%;
-      }
-    </style>
+    <title>WEB ADMIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
   </head>
   <body>
     <div>
-      <div class="sidebar"></div>
-      <div class="kanan">
-        <div class="topbar"></div>
-        <div class="main"></div>
+      <div class="sidebar">
+      <div class="profil">
+        <div class="foto">
+        <img src="pasfoto.jpg" alt="" width="125px">
+        </div>
+        <div class="detail">
+          <h2 style="text-align: center;">AkhyWY</h2>
+          <h4 style="text-align: center;">Admin</h4>
+        </div>
+      </div> <!--profil end-->
+      <div class="menu">
+        <ul>
+          <li class="menu-item">
+            <a href="beranda.html">
+              <span><i class="fas fa-home"></i></span>
+              <span>Beranda</span></a></li>
+          <li class="menu-item">
+            <a href="profil">
+              <span><i class="fas fa-user"></i></span>
+              <span>Profil</span></a></li>
+          <li class="menu-item">
+            <a href="krs.html">
+            <span><i class="fas fa-chart-line"></i></span>
+            <span>Kartu Rencana Studi</span></a></li>
+          <li class="menu-item">
+            <a href="nilai.html">
+            <span><i class="fas fa-chart-line"></i></span>
+           <span> Nilai</span></a></li>
+          <li class="menu-item">
+            <a href="login.html">
+            <span><i class="fas fa-sign-out-alt"></i></span>
+            <span> Nilai</span></a></li>
+        </ul>
+      </div><!--menu end-->
       </div>
-    </div>
   </body>
 </html>
