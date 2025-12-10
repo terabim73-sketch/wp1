@@ -5,8 +5,6 @@
   background: linear-gradient(180deg, #6b7f5e 0%, #8b8058 50%, #6d5d3f 100%);
   margin: 0;
 }
-
-/* Header hijau dengan 2 logo */
 .header-verifikasi {
   background-color: #3d4f2f;
   padding: 15px 20px;
@@ -36,7 +34,6 @@
   font-weight: 600;
 }
 
-/* Area kartu */
 .area-kartu {
   display: flex;
   justify-content: center;
@@ -45,7 +42,6 @@
   min-height: calc(100vh - 100px);
 }
 
-/* Kartu Mahasiswa */
 .kartu-mahasiswa {
   max-width: 650px;
   width: 100%;
@@ -58,7 +54,6 @@
   border: 3px solid #b36ba8;
 }
 
-/* Header Kartu dengan 2 logo */
 .kartu-header {
   margin-bottom: 15px;
 }
@@ -123,7 +118,6 @@
   text-align: center;
 }
 
-/* Body Kartu */
 .kartu-body {
   display: flex;
   gap: 15px;
@@ -131,7 +125,6 @@
   margin-bottom: 15px;
 }
 
-/* Data Mahasiswa */
 .data-mahasiswa {
   flex: 1;
 }
@@ -160,7 +153,6 @@
   font-size: 0.85em;
 }
 
-/* QR Code */
 .qr-code {
   margin-top: 15px;
   width: 110px;
@@ -180,7 +172,6 @@
   object-fit: contain;
 }
 
-/* Foto Mahasiswa */
 .foto-mahasiswa {
   width: 190px;
   flex-shrink: 0;
@@ -195,12 +186,16 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer Kartu */
 .kartu-footer {
   text-align: center;
   border-top: 2px solid #8b4580;
   padding-top: 12px;
-  background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
 }
 
 .motto {
@@ -218,7 +213,6 @@
   font-size: 0.85em;
 }
 
-/* Watermark */
 .watermark {
   position: absolute;
   top: 50%;
@@ -235,7 +229,6 @@
   object-fit: contain;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .header-verifikasi {
     flex-direction: column;
